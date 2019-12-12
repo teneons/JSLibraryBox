@@ -1,0 +1,305 @@
+*{
+    outline: none;
+}
+
+::selection{
+    background-color: #ffea00;
+    color: #262626;
+}
+
+body{
+    margin-top: 0;
+    background-color: #1A1A1A;
+}
+
+#btnHiSw{
+    width: 4em;
+    height: 3.3em;
+    border-radius: 0 0 50% 50%;
+
+    cursor: pointer;
+    border-style: none;
+
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    background-image: url(media/iconMenuSHMax.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #262626;
+
+
+}
+#btnHiSw:hover{
+    transform: scale(-1, -1);
+    border-radius: 50% 50% 0 0;
+}
+#btnHiSw:active{
+    transform: scale(-1, -1);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+header{
+    width: 60%;
+    height: 5em;
+    display: none;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    position: relative;
+
+    border-radius: 0 0 20px 20px;
+    background-color: #262626;
+}
+
+/* DIV ADD NEW*/
+#divAddNew{
+    width: 80%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #707070;
+    border-radius: 20px;
+
+    background-color: #262626;
+}
+
+
+#inputUrl, #inputDescription{
+    width: 20em;
+    height: 2em;
+    background-color: #e4e4e4;
+
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #e4e4e4;
+
+    font-family: "Lucida Console";
+    font-size: 13px;
+
+    margin: 0 0.5em 0;
+}
+
+#inputUrl:hover, #inputDescription:hover{
+    border-color: #fff;
+    background-color: #fff;
+}
+
+
+#btnAddNew{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+
+    cursor: pointer;
+    border-color: #262626;
+    border-style: solid;
+    border-width: 2px;
+
+    background-image: url(media/iconAddMax.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #707070;
+}
+#btnAddNew:hover{
+    border-color: #fff;
+}
+#btnAddNew:active{
+    background-color: #fff;
+    background-image: url(media/iconAddMarkMax.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 1.5em;
+}
+
+
+/* div Href */
+#divHref{
+    width: 4em;
+    height: auto;
+    background-color: #707070;
+    border-radius: 20px 0 0 20px;
+}
+
+.hrefBkmrk{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    margin: 0.5em;
+
+    cursor: pointer;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px;
+
+    background-image: url(media/iconOpenMax.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hrefBkmrk:hover{
+    border-color: #262626;
+}
+
+
+
+/*div Description */
+#divDescription{
+    width: 100%;
+    height: auto;
+    background-color: #262626;
+    
+    border-radius: 0 20px 20px 0;
+}
+
+.descriptionBkmrk{
+    width: 100%;
+    height: 2.9em;
+    display: flex;
+    align-items: center;
+
+    color: #fff;
+    font-family: "Lucida Console";
+    font-size: 18px;
+}
+
+
+/* adaptability Y */
+@media only screen and (max-device-width: 720px) {
+    header{
+        width: 60%;
+        height: 10em;
+    }
+
+    #divAddNew{
+        width: 85%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    #inputUrl, #inputDescription{
+        margin: 0.4em;
+    }
+
+
+    main{
+        margin: 1em;
+    }
+
+    #divHref{
+        width: 3em;
+    }
+    .hrefBkmrk{
+        width: 1.5em;
+        height: 1.5em;
+        background-size: 1;
+        background-image: url(media/iconOpenMin.png);
+        border-width: 1px;
+    }
+
+    .descriptionBkmrk{
+        width: 100%;
+        height: 3em;
+        font-size: 11.4px;
+    }
+}
+
+@media only screen and (max-device-width: 320px) {
+    #btnHiSw{
+        width: 2.5em;
+        height: 2.5em;
+        background-size: 1;
+        background-image: url(media/iconMenuSHMin.png);
+    }
+
+
+    header{
+        width: 95%;
+        height: 10em;
+    }
+
+    #divAddNew{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    #inputUrl, #inputDescription{
+        margin: 0.4em;
+    }
+
+    #btnAddNew{
+        width: 3em;
+        height: 3em;
+        background-image: url(media/iconAddMin.png);
+    }
+
+
+    main{
+        margin: 0.5em;
+    }
+
+    #divHref{
+        width: 3em;
+    }
+    .hrefBkmrk{
+        width: 1.5em;
+        height: 1.5em;
+        background-size: 1;
+        background-image: url(media/iconOpenMin.png);
+        border-width: 1px;
+    }
+
+    .descriptionBkmrk{
+        width: 100%;
+        height: 4.3em;
+        font-size: 8px;
+    }
+}
+
+/* adaptability X 
+@media only screen and (min-device-width: 720px) {
+    #divHref{
+        width: 3em;
+    }
+    .hrefBkmrk{
+        width: 1.5em;
+        height: 1.5em;
+        background-size: 1;
+        background-image: url(iconOpenMin2.png);
+        border-width: 1px;
+    }
+
+    .descriptionBkmrk{
+        font-size: 11.4px;
+    }
+}
+*/
