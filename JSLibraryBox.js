@@ -20,7 +20,9 @@ let book = [{href: 'https://timseverien.com/passy/',  id: '1531346423', descript
 {href: 'https://micromodal.now.sh/',  id: '1554314035', description: 'Micromodal.js'},
 {href: 'http://autonumeric.org/examples',  id: '1554390433', description: 'AutoNumeric.js'},
 {href: 'https://kingsora.github.io/OverlayScrollbars/#!overview',  id: '1560185298', description: 'Spotlight.js Demoli_sophie17'},
-{href: 'https://howlerjs.com/', id: '2', description: 'audio player libr'}];
+{href: 'https://howlerjs.com/', id: '2', description: 'audio player libr'},
+{href: 'http://maxwellito.github.io/vivus/', id: '3', description: 'libr - svg js'}
+];
 
 let bookmrkData = [];
 
