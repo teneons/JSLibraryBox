@@ -2,7 +2,7 @@ This is own with good JavaScript libraries. This allows better navigate between 
 
 **Main project aspects:**
 * Responsive web design
-* Clear fron-end
+* Clear front-end
 * Save date to localStorage
 
 
