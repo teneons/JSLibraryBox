@@ -1,12 +1,16 @@
-This is own with good JavaScript libraries. This allows better navigate between other libraries.
-
-**Main project aspects:**
-* Responsive web design
-* Clear front-end
-* Save date to localStorage
+---
+### JSLibraryBox
+---
 
 
-**Used technology:**
-* HTML
-* CSS
-* JavaScript
++ **Project name -** `JSLibraryBox`
+
++ **Description -** This is own with good JavaScript libraries. This allows better navigate between other libraries. Also prj. has got **responsive design**, and based on **'clean frontend'**
+
+
++ **Stack**
+   - `HTML`
+   - `CSS`
+   - `JS`
+
+---
