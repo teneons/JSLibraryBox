@@ -15,7 +15,11 @@ let book = [
 {href: 'https://animejs.com/', id: '24', description: 'Animejs - pro animation'},
 {href: 'https://github.com/daneden/animate.css', id: '25', description: 'Animate - css anim'},
 {href: 'https://github.com/mrdoob/three.js', id: '26', description: 'Three.js - 3D JS'},
-{href: 'https://picturepan2.github.io/spectre/', id: '27', description: 'Spectre - CSS framework'}
+{href: 'https://picturepan2.github.io/spectre/', id: '27', description: 'Spectre - CSS framework'},
+{href: 'https://www.chartjs.org/', id: '28', description: 'graphics'},
+{href: 'https://revealjs.com/', id: '29', description: 'HTML presentations'},
+{href: 'https://www.pixijs.com/', id: '30', description: '2D js'},
+
 ];
 
 let bookmrkData = [];
